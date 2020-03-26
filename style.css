@@ -1,11 +1,19 @@
+@font-face {
+	font-family: "BN";
+	src: url("Matan.eot?") format("eot"),
+	url("Matan.woff") format("woff"),
+	url("Matan.ttf") format("truetype");
+  }
+  
 body
 {
 	background-color: #D0E4F5;
 	background-image: url("http://www.yo-yoo.co.il/rekaim/images/uploads/f38641.jpg");
-	background-repeat: no-repeat;
+	background-size: cover;
 	background-attachment: fixed;
 	background-position: -5px -5px;
 	font-family: Impact, Haettenschweiler, 'Arial Narrow', sans-serif;
+	font-size: initial;
 	text-align: center;
 }
 
@@ -41,4 +49,34 @@ body
 
   li:last-child {
 	border-right: none;
+  }
+  .section{
+	border: 4px dashed #000000;
+	border-radius: 40px 40px 40px 40px;
+	
+  }
+  input[type=text], select, textarea {
+	width: 15%;
+	height: 10px;
+	padding: 12px; 
+	border: 2px solid palevioletred; 
+	border-radius: 10px; 
+	box-sizing: border-box; 
+	margin-top: 6px;
+	margin-bottom: 16px; 
+	resize: vertical
+  }
+  input[type=submit], input[type=reset] {
+	background-color: black;
+	color: RED;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+  }
+  input[type=submit]:hover {
+	background-color: white;
+  }
+  input[type=reset]:hover{
+	background-color: white;
   }
