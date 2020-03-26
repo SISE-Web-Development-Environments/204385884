@@ -2,179 +2,102 @@
 <html>
 <head>
 <link rel="stylesheet" type="text/css" href="style.css" />
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
 <body>
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/he_IL/sdk.js#xfbml=1&version=v6.0"></script>
+
 <div id="menu">
-<li><a href="#about">About Me</a></li>
-<li><a href="#photos">My Photos</a></li>
-<li><a href="#playlist">My Playlist</a></li>
-<li><a href="#like">Like</a></li>
-<li><a href="#qrcoder">QR code</a></li>
-<li><a href="#spa">Q&A</a></li>
-<li><a href="#contact">Contact Me</a></li>
+<li><a href="#about">About Me <i class="fas fa-comment"></i></a></li>
+<li><a href="#photos">My Photos <i class="fas fa-images"></i></a></li>
+<li><a href="#playlist">My Playlist <i class="fas fa-headphones"></i></a></li>
+<li><a href="#like">Like <i class="fas fa-heart"></i></a></li>
+<li><a href="#qrcoder">QR code <i class="fas fa-qrcode"></i></a></li>
+<li><a href="#spa"><i class="fas fa-question"></i> Q&A <i class="fas fa-exclamation"></i></a></li>
+<li><a href="#contact">Contact Me <i class="fas fa-envelope-open-text"></i></a></li>
 </div>
-		  
-<section id="about" class="section">
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-about me
-<br/>
+<section id="about" class="sec">
+</br>
+<h1 style="color: black; font-family: monospace 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; text-shadow: 10px 10px 10px rgb(195, 134, 206);; font-size: 50px;">Liron Ben-Yakov</h1></style>
+<p style="font-size: 25px;">
+  student Information Systems Engineering<br>
+  in Ben Gurion University
+</p>
 <br/>
 <br/>
 </section>
-
+</br>
 <section id="photos" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-my photos
+<h2><u>my photos</u></h2>
 <br/>
 <br/>
 <br/>
 </section>
-
+</br>
 <section id="playlist" class="section">
+<h2><u>playlist</u></h2>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-my playlist
-<br/>
-<br/>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL1CbbO_Zt3j7Vs02VeMGSOVzQ87w2whET" 
+frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 <br/>
 </section>
-
+</br>
 <section id="like" class="section">
+<h2><i class="far fa-heart"></i><u>give me Like And Share</u><i class="far fa-heart"></i></h2>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-give me a like
-<br/>
-<br/>
-<br/>
+<iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fgithub.com%2FSISE-Web-Development-Environments%2Fassignment1-lironoskar&width=25&layout=button&action=like&size=large&share=true&height=65&appId" 
+width="120" height="65" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
 </section>
-
+</br>
 <section id="qrcoder" class="section">
+  <h2><u>scan my code</u></h2>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-scan my code
-<br/>
-<br/>
+<img src="http://api.qrserver.com/v1/create-qr-code/?color=000000&amp;bgcolor=FFFFFF&amp;data=https%3A%2F%2Fsise-web-development-environments.github.io%2Fassignment1-lironoskar%2F&amp;qzone=1&amp;margin=0&amp;size=400x400&amp;ecc=L" alt="qr code" width="300" height="300" />
 <br/>
 </section>
-
+</br>
 <section id="spa" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-ans
+<h2><u>Q&A</u></h2>
 <br/>
 <br/>
 <br/>
 </section>
-
+</br>
 <section id="contact" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-contact me
-<br/>
-<br/>
-<br/>
+  <h2><u>contact me</u></h2>
+<form action="mailto:oskar@post.bgu.ac.il" id="form" method="POST" name="form" enctype=”multipart/form-data”>
+  E-mail: <input type="text" name="Mail" placeholder="Your Email">
+  <br/>
+  Name: <input type="text" name="Name" placeholder="Your full name" style="font-family: Verdana, Geneva, Tahoma, sans-serif;">
+  <br/>
+  <label>your Message:</label>
+  <br/>
+  <textarea name="Message" placeholder="Type your text here..." style="width: 300px; height: 150px;"></textarea>
+  <br/>
+  <label for="smiley">Choose Smiley</label>
+  <br/>
+    <select id="smiley" name="Emoji" style="height: 50px;">
+      <option value="FACE WITH STUCK-OUT TONGUE AND WINKING EYE">&#128540;</option>
+      <option value="FACE WITH TEARS OF JOY">&#128514;</option>
+      <option value="SMILING FACE WITH OPEN MOUTH AND COLD SWEAT">&#128517;</option>
+      <option value="SMILING FACE WITH HEART-SHAPED EYES">&#128525;</option>
+      <option value="CONFOUNDED FACE">&#128534;</option>
+      <option value="POUTING FACE">&#128545;</option>
+      <option value="CRYING FACE">&#128546;</option>
+    </select>
+  </br>
+  <input style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;" id="send" name="submit" type="submit" value="Send Mail">
+  <input style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;" type="reset" value="Reset">
+  </br>
+  </br>
+  </form>
+  </form>
+  </section>
 </section>
-
+</div>
 
 <script type="text/javascript">
 $(function(){
