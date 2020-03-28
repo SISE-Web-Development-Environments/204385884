@@ -1,11 +1,4 @@
-@font-face {
-	font-family: "BN";
-	src: url("Matan.eot?") format("eot"),
-	url("Matan.woff") format("woff"),
-	url("Matan.ttf") format("truetype");
-  }
-  
-body
+  body
 {
 	background-color: #D0E4F5;
 	background-image: url("http://www.yo-yoo.co.il/rekaim/images/uploads/f38641.jpg");
@@ -23,6 +16,7 @@ body
 	width: 100%;
 	height: 48px;
 	float: inline-start;
+	
 }
   li {
 	float: left;
@@ -50,11 +44,13 @@ body
   li:last-child {
 	border-right: none;
   }
+
   .section{
 	border: 4px dashed #000000;
 	border-radius: 40px 40px 40px 40px;
 	
   }
+
   input[type=text], select, textarea {
 	width: 15%;
 	height: 10px;
@@ -79,4 +75,14 @@ body
   }
   input[type=reset]:hover{
 	background-color: white;
+  }
+  table, th, td {
+	border: 1px solid black;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 18px;
+  }
+  th {
+	background-color: thistle;
+	color: black;
+	font-style: bold;
   }
