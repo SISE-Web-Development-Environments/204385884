@@ -56,8 +56,10 @@ body
       border: 2px solid tan;
       width: 1000px;
 	  color: black;
-	  opacity: 0.8;
 	  margin: auto;
+	  font-size: 20px;
+	  font-family: Comic Sans MS, cursive, sans-serif;
+	  
   }
     h1{
 		color: black; 
@@ -144,6 +146,8 @@ body
 	opacity: 0.8;
 	width: 1150px;
 	margin: auto;
+	font-family: Comic Sans MS, cursive, sans-serif;
+	font-style: bold;
   }
 
   
