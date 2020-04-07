@@ -4,7 +4,8 @@ body
 	background-image: url("background.jpg");
 	background-size: cover;
 	background-attachment: fixed;
-	background-position: -5px -5px;
+	background-repeat: no-repeat;
+	background-position: center;
 	font-family: Impact, Haettenschweiler, 'Arial Narrow', sans-serif;
 	font-size: initial;
 	text-align: center;
@@ -50,10 +51,6 @@ body
 	  margin: auto;
 
   }
-  /*.section{
-    border: 1px solid tan;
-	
-  }*/
   #text{
       background-color: seashell;
       border: 2px solid tan;
@@ -140,6 +137,13 @@ body
 	width: 500px;
 	margin: 10px auto;
 	overflow: auto;
+  }
+
+  footer{
+	background-color: blanchedalmond;
+	opacity: 0.8;
+	width: 1150px;
+	margin: auto;
   }
 
   
