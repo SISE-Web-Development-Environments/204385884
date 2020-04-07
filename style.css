@@ -45,24 +45,13 @@ body
   }
 
   .cover{
-<<<<<<< HEAD
-	  background-image: url("background1.jpg");
-	  background-size: cover;
-	  background-attachment: fixed;
-=======
       background-color: rgba(255, 255, 255, 0.5);
->>>>>>> 83228c9b59ffdbcce292cb1b4d0c2b811e46a2ea
 	  width: 1150px;
 	  margin: auto;
 
   }
-<<<<<<< HEAD
-  .section{
-	border: 1px solid palevioletred;
-=======
   /*.section{
     border: 1px solid tan;
->>>>>>> 83228c9b59ffdbcce292cb1b4d0c2b811e46a2ea
 	
   }*/
   #text{
@@ -91,34 +80,6 @@ body
   }
   img{
 	  border: 3px solid tan;
-  }
-  #text{
-	  background-color: lavenderblush;
-	  border: 2px solid black;
-	  width: 1150px;
-	  color: black;
-	  opacity: 0.8;
-	  margin: auto;
-  }
-	h1{
-		color: black; 
-		font-family: Impact, Charcoal, sans-serif ; 
-		text-shadow: 10px 10px 10px palevioletred; 
-		font-size: 50px;
-	}
-  h2{
-	font-family: Comic Sans MS, cursive, sans-serif;
-	font-style: bold;
-	background-color: lavenderblush;
-	width: 150px;
-	margin: auto;
-  }
-  p{
-	font-size: 25px;
-	font-family: Comic Sans MS, cursive, sans-serif;
-  }
-  img{
-	  border: 1px solid lavenderblush;
   }
 
   input[type=text], select, textarea {
@@ -159,11 +120,7 @@ body
   }
   th {
 	background-color: black;
-<<<<<<< HEAD
-	color: palevioletred;
-=======
 	color: tan;
->>>>>>> 83228c9b59ffdbcce292cb1b4d0c2b811e46a2ea
 	font-style: bold;
   }
 
