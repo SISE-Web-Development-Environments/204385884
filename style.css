@@ -1,7 +1,7 @@
   body
 {
 	background-color: #D0E4F5;
-	background-image: url("http://www.yo-yoo.co.il/rekaim/images/uploads/f38641.jpg");
+	background-image: url("background.jpg");
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: -5px -5px;
@@ -35,7 +35,6 @@
 	text-decoration: none;
   }
   
-  /* Change the link color to #111 (black) on hover */
   li :hover {
 	background-color: rgb(218, 122, 158);
 	border-radius: 20px;
@@ -45,10 +44,45 @@
 	border-right: none;
   }
 
+  .cover{
+	  background-image: url("background1.jpg");
+	  background-size: cover;
+	  background-attachment: fixed;
+	  width: 1150px;
+	  margin: auto;
+
+  }
   .section{
-	border: 1px dashed #000000;
-	border-radius: 40px 40px 40px 40px;
+	border: 1px solid palevioletred;
 	
+  }
+  #text{
+	  background-color: lavenderblush;
+	  border: 2px solid black;
+	  width: 1150px;
+	  color: black;
+	  opacity: 0.8;
+	  margin: auto;
+  }
+	h1{
+		color: black; 
+		font-family: Impact, Charcoal, sans-serif ; 
+		text-shadow: 10px 10px 10px palevioletred; 
+		font-size: 50px;
+	}
+  h2{
+	font-family: Comic Sans MS, cursive, sans-serif;
+	font-style: bold;
+	background-color: lavenderblush;
+	width: 150px;
+	margin: auto;
+  }
+  p{
+	font-size: 25px;
+	font-family: Comic Sans MS, cursive, sans-serif;
+  }
+  img{
+	  border: 1px solid lavenderblush;
   }
 
   input[type=text], select, textarea {
@@ -84,10 +118,12 @@
 	border: 2px solid palevioletred;
 	font-family: Comic Sans MS, cursive, sans-serif;
 	font-size: 18px;
+	color: black;
+	background-color: #f2f2f2;
   }
   th {
-	background-color: #f2f2f2;
-	color: black;
+	background-color: black;
+	color: palevioletred;
 	font-style: bold;
   }
 
