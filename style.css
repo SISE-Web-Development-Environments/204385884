@@ -1,4 +1,4 @@
-  body
+body
 {
 	background-color: #D0E4F5;
 	background-image: url("background.jpg");
@@ -36,7 +36,7 @@
   }
   
   li :hover {
-	background-color: rgb(218, 122, 158);
+	background-color: wheat;
 	border-radius: 20px;
   }
 
@@ -45,16 +45,52 @@
   }
 
   .cover{
+<<<<<<< HEAD
 	  background-image: url("background1.jpg");
 	  background-size: cover;
 	  background-attachment: fixed;
+=======
+      background-color: rgba(255, 255, 255, 0.5);
+>>>>>>> 83228c9b59ffdbcce292cb1b4d0c2b811e46a2ea
 	  width: 1150px;
 	  margin: auto;
 
   }
+<<<<<<< HEAD
   .section{
 	border: 1px solid palevioletred;
+=======
+  /*.section{
+    border: 1px solid tan;
+>>>>>>> 83228c9b59ffdbcce292cb1b4d0c2b811e46a2ea
 	
+  }*/
+  #text{
+      background-color: seashell;
+      border: 2px solid tan;
+      width: 1000px;
+	  color: black;
+	  opacity: 0.8;
+	  margin: auto;
+  }
+    h1{
+		color: black; 
+		font-family: Impact, Charcoal, sans-serif ; 
+		text-shadow: 10px 10px 10px tan; 
+		font-size: 50px;
+	}
+  h2{
+	font-family: Comic Sans MS, cursive, sans-serif;
+	font-style: bold;
+	margin: auto;
+  }
+
+  p{
+	font-size: 25px;
+	font-family: Comic Sans MS, cursive, sans-serif;
+  }
+  img{
+	  border: 3px solid tan;
   }
   #text{
 	  background-color: lavenderblush;
@@ -89,7 +125,7 @@
 	width: 50%;
 	height: 10px;
 	padding: 12px; 
-	border: 2px solid palevioletred; 
+	border: 2px solid tan; 
 	border-radius: 10px; 
 	box-sizing: border-box; 
 	margin-top: 6px;
@@ -98,7 +134,7 @@
   }
   input[type=submit], input[type=reset] {
 	background-color: black;
-	color: palevioletred;
+	color: tan;
 	padding: 12px 20px;
 	border: none;
 	border-radius: 4px;
@@ -115,7 +151,7 @@
 	font-family: Comic Sans MS, cursive, sans-serif;
   }
   table, th, td {
-	border: 2px solid palevioletred;
+	border: 2px solid tan;
 	font-family: Comic Sans MS, cursive, sans-serif;
 	font-size: 18px;
 	color: black;
@@ -123,19 +159,23 @@
   }
   th {
 	background-color: black;
+<<<<<<< HEAD
 	color: palevioletred;
+=======
+	color: tan;
+>>>>>>> 83228c9b59ffdbcce292cb1b4d0c2b811e46a2ea
 	font-style: bold;
   }
 
   button{
 	padding: 5px 5px; 
 	border:1px solid black; 
-	background-color: palevioletred; 
+	background-color: tan; 
 	font-family: Comic Sans MS, cursive, sans-serif;
   }
 
   form {
-	border: 1px solid palevioletred;
+	border: 1px solid tan;
 	border-radius: 5px;
 	background-color: #f2f2f2;
 	padding: 20px;
@@ -144,3 +184,5 @@
 	margin: 10px auto;
 	overflow: auto;
   }
+
+  
